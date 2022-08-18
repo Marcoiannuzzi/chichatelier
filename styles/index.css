@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.general{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 2px solid rgb(187, 147, 147);
+    border-top: 2px solid rgb(187, 147, 147);
+}
+
+.sobreMi{
+    padding: 35px ;
+}
+
+.chicha{
+    border-radius: 50%;
+    box-shadow: 2px 2px  rgba(94, 91, 91, 0.63);
+}
+
+.galeria{
+    padding: 40px;
+    border-top: 2px solid rgb(187, 147, 147);
+    border-bottom: 2px solid rgb(187, 147, 147);
+}
+
+footer{
+    height: 30vh;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.navConteiner{
+    top: 10px;
+    position: fixed;
+    width: 80%;
+    z-index: 1;
+}
+
+@media (max-width:550px){
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main{
+        margin-top: 150px;
+    }
+
+}

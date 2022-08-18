@@ -8,8 +8,13 @@
 }
 
 nav{
+    z-index: 1;
+    top: 25px;
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 25px;
     border-bottom: 2px solid rgb(187, 147, 147);
     border-top: 2px solid rgb(187, 147, 147);
@@ -45,15 +50,25 @@ main{
     z-index: 1;
 }
 
-@media (max-width:550px){
+@media (max-width:750px){
     
     nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+    
     }
 
     main{
         margin-top: 150px;
+    }
+
+    .chicha{
+        width:150px;
+    }
+
+    .textoSobreMi{
+        font-size: 18px;
     }
 
 }

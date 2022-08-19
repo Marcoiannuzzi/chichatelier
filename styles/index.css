@@ -9,7 +9,7 @@
 
 nav{
     z-index: 1;
-    top: 10px;
+    top: 5px;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -20,8 +20,12 @@ nav{
     border-top: 2px solid rgb(187, 147, 147);
 }
 
+.vacio{
+    height: 15px;
+}
+
 .sobreMi{
-    padding: 35px ;
+    padding:35px ;
 }
 
 .chicha{
@@ -43,14 +47,18 @@ footer{
 main{
     margin-top: 100px;
 }
- .card{
+ /* .card{
     opacity: 50%;
- }
+ } */
 
  .card:hover{
     opacity: 100%;
     transition: 1s;
     cursor: pointer;
+ }
+
+ .modalImg{
+    width: 28rem;
  }
 
 @media (max-width:750px){
@@ -76,6 +84,10 @@ main{
 
     .card{
         opacity: 100%;
+     }
+
+     .modalImg{
+        width: 350px;
      }
 
 }

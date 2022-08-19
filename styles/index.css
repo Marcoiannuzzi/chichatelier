@@ -73,11 +73,6 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-    
-    }
-
-    main{
-        margin-top: 150px;
     }
 
     .chicha{
@@ -97,7 +92,8 @@ main{
      }
 
      .sobreMi{
-        padding: 0px;
+        padding: 20px;
+        padding-bottom: 15px;
     }
 
 }

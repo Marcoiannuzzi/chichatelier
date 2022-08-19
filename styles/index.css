@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+body{
+    background: linear-gradient(90deg, rgb(241, 248, 236), rgb(226, 252, 220));
+    
 }
 
 .general{
@@ -8,6 +13,7 @@
 }
 
 nav{
+    background: linear-gradient(45deg, rgb(240, 247, 232), rgb(203, 247, 192));
     z-index: 1;
     top: 5px;
     position: fixed;
@@ -15,7 +21,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 20px;
     border-bottom: 2px solid rgb(187, 147, 147);
     border-top: 2px solid rgb(187, 147, 147);
 }
@@ -25,7 +31,7 @@ nav{
 }
 
 .sobreMi{
-    padding:35px ;
+    padding: 0px 35px 35px 35px ;
 }
 
 .chicha{
@@ -91,9 +97,7 @@ main{
      }
 
      .sobreMi{
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0px;
     }
 
 }

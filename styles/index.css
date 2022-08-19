@@ -75,7 +75,7 @@ main{
     }
 
     .chicha{
-        width: 90px;
+        width: 130px;
     }
 
     .textoSobreMi{
@@ -89,5 +89,11 @@ main{
      .modalImg{
         width: 350px;
      }
+
+     .sobreMi{
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 }

@@ -43,7 +43,15 @@ footer{
 main{
     margin-top: 100px;
 }
+ .card{
+    opacity: 50%;
+ }
 
+ .card:hover{
+    opacity: 100%;
+    transition: 1s;
+    cursor: pointer;
+ }
 
 @media (max-width:750px){
     
@@ -65,5 +73,9 @@ main{
     .textoSobreMi{
         font-size: 18px;
     }
+
+    .card{
+        opacity: 100%;
+     }
 
 }
